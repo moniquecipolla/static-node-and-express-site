@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 Monique's Javascript Project Portfolio
+
+    p Here's where you'll find more information on the projects I've built thus far!
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects
+        .cell
+          a(href=`projects/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt='screenshot of javascript project', class='custom')
+            h5 #{project.project_name}
+
