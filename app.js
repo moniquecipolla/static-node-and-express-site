@@ -11,9 +11,9 @@ app.use(mainRoutes);
 app.use('/projects', projectRoutes);
 
 app.use((req, res, next) => {
-  const err = new Error('Not Found');
+  const err = new Error('Page not found');
   err.status = 404;
-  console.log('404 error')
+  console.log(`404: The page you're looking for doesn't exist.`)
   next(err);
 });
 
@@ -23,6 +23,9 @@ app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.render('page-not-found');
   } else {
+    res.status(err.status || 500);
+    err.message = err.message || `Something went wrong on the server.`;
+    console.log(`500: Something went wrong on the server.`)
     res.render('error');
   }
 });
@@ -30,5 +33,3 @@ app.use((err, req, res, next) => {
 app.listen(3000, () => {
   console.log('This application is running on localhost:3000!')
 });
-
-module.exports = app;

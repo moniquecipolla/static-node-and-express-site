@@ -1,6 +1,14 @@
 extends layout.pug
 
 block content
- h1= `Server Error`
-    h2= `Error status code: ${error.status} - Server Error`
-    p.error-p= `Human friendly error message: ${error.message}`
+ <br>
+ p <b>Error Message:</b> #{error.message}
+
+ p <b>Status:</b> #{error.status}
+
+ p Something went wrong on the server.
+
+ p #{error.stack}
+
+ p
+  a(href='/') Return home.
