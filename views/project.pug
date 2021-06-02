@@ -18,7 +18,7 @@ block content
       .project-tech-links-box.box
         h6 Technologies
         ul
-         each tech in projects[id].technologies //Uses the each iterator to iterate over the list of technologies.
+         each tech in projects[id].technologies
           li= tech
 
         a.btn-link(href=`${projects[id].live_link}`, target="_blank") Live Demo
