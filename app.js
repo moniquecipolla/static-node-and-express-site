@@ -25,12 +25,12 @@ app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   if (err.status === 404) {
-    res.render('page-not-found'); //Renders the Page Not Found template page.
+    res.render('page-not-found', { err }); //Renders the Page Not Found template page.
   } else {
     res.status(err.status || 500);
     err.message = err.message || `Something went wrong on the server.`;
     console.log(`${err.status}: Something went wrong on the server.`) //Logs the status and message to the console.
-    res.render('error'); //Renders the Error template page.
+    res.render('error', { err }); //Renders the Error template page.
   }
 });
 

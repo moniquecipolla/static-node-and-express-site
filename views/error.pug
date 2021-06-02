@@ -2,13 +2,13 @@ extends layout.pug
 
 block content
  <br>
- p <b>Error Message:</b> #{error.message}
+ p <b>Error Message:</b> #{err.message}
 
- p <b>Status:</b> #{error.status}
+ p <b>Status:</b> #{err.status}
 
  p Something went wrong on the server.
 
- p #{error.stack}
+ p #{err.stack}
 
  p
   a(href='/') Return home.
