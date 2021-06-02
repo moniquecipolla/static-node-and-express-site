@@ -11,7 +11,7 @@ block content
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-      each project in projects
+      each project in projects //Uses the each iterator to create a cell for each project
         .cell
           a(href=`projects/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`, alt='screenshot of javascript project', class='custom')
