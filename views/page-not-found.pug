@@ -1,8 +1,12 @@
 extends layout.pug
 
 block content
- h1= `${error.message} - Status: ${error.status}`
+ <br>
+ p <b>Error Message:</b> #{error.message}
 
-  p Page wasn't found.
-   <br>
-   a(href='/') Return home.
+ p <b>Status:</b> #{error.status}
+
+ p The page you were attempting to reach was not found.
+
+ p
+  a(href='/') Return home.

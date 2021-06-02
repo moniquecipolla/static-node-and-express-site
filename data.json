@@ -1,5 +1,4 @@
 {
-  "data": {
       "projects": [
           {
               "id": "0",
@@ -48,5 +47,5 @@
               "image_urls": ["/static/images/api-requests.jpg", "/static/images/api-requests2.jpg", "/static/images/api-requests3.jpg"]
           }
       ]
-  }
+  
 }
