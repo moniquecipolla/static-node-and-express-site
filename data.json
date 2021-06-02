@@ -3,8 +3,8 @@
           {
               "id": "0",
               "project_name": "Random Quote Generator",
-              "description": "A random quote generator",
-              "technologies": ["Javascript", "HTML"],
+              "description": "A random quote generator that changes background colors and displays a random quote at a set interval.",
+              "technologies": ["JavaScript", "HTML"],
               "live_link": "https://moniquecipolla.github.io/Random-Quote-Generator/",
               "github_link": "https://github.com/moniquecipolla/Random-Quote-Generator",
               "image_urls": ["/static/images/random-quote-generator.jpg", "/static/images/random-quote-generator2.jpg", "/static/images/random-quote-generator3.jpg"]
@@ -13,8 +13,8 @@
           {
               "id": "1",
               "project_name": "Data pagination and filtering",
-              "description": "A project that focuses on data pagination & filtering. There's even a search feature for your entertainment!",
-              "technologies": ["Javascript", "HTML", "CSS"],
+              "description": "A project that focuses on data pagination & filtering, featuring a student directory. There's even a search feature for your entertainment!",
+              "technologies": ["JavaScript", "HTML", "CSS"],
               "live_link": "https://moniquecipolla.github.io/Data-Pagination-and-Filtering/",
               "github_link": "https://github.com/moniquecipolla/Data-Pagination-and-Filtering",
               "image_urls": ["/static/images/data-pagination-filtering.jpg", "/static/images/data-pagination-filtering2.jpg", "/static/images/data-pagination-filtering3.jpg"]
@@ -22,8 +22,8 @@
           {
               "id": "2",
               "project_name": "Interactive Form",
-              "description": "An interactive form with validation features",
-              "technologies": ["Javascript", "HTML", "CSS"],
+              "description": "An interactive form with validation features, built to be accessible.",
+              "technologies": ["JavaScript", "HTML", "CSS"],
               "live_link": "https://moniquecipolla.github.io/Interactive-Form/",
               "github_link": "https://github.com/moniquecipolla/Interactive-Form",
               "image_urls": ["/static/images/interactive-form.jpg", "/static/images/interactive-form2.jpg", "/static/images/interactive-form3.jpg"]
@@ -32,7 +32,7 @@
               "id": "3",
               "project_name": "Phrase Hunter Game: Back to the Phrases",
               "description": "A Back to the Future themed phrase finder game.",
-              "technologies": ["Javascript", "HTML", "CSS", "OOP"],
+              "technologies": ["JavaScript", "HTML", "CSS", "OOP"],
               "live_link": "https://moniquecipolla.github.io/Back-to-the-Phrases-Game/",
               "github_link": "https://github.com/moniquecipolla/Back-to-the-Phrases-Game",
               "image_urls": ["/static/images/phrase-hunter.jpg", "/static/images/phrase-hunter2.jpg", "/static/images/phrase-hunter3.jpg"]
@@ -41,7 +41,7 @@
               "id": "4",
               "project_name": "Public API Requests",
               "description": "A directory of employees populated from the Random Users API. There is a search functionality to filter employees by first and last name.",
-              "technologies": ["Javascript", "HTML", "CSS", "Fetch and Public APIs"],
+              "technologies": ["JavaScript", "HTML", "CSS", "Fetch and Public APIs"],
               "live_link": "https://moniquecipolla.github.io/public-api-requests/",
               "github_link": "https://github.com/moniquecipolla/public-api-requests",
               "image_urls": ["/static/images/api-requests.jpg", "/static/images/api-requests2.jpg", "/static/images/api-requests3.jpg"]
